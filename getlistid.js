@@ -10,10 +10,7 @@
 const superagent = require("superagent")
 
 module.exports = async (boardId, listName, apiKey, apiToken) => {
-    //https://api.trello.com/1/boards/{id}/lists?key=APIKey&token=APIToken
-
     var lists
-    var listId
 
     try {
         lists = await superagent.get(`https://api.trello.com/1/boards/${encodeURI(boardId)}/lists?key=${encodeURI(apiKey)}&token=${encodeURI(apiToken)}`)
