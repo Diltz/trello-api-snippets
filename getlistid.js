@@ -1,7 +1,6 @@
 /*
 
-    @author
-        Diltz
+    @author Diltz
 
     Desc: This code helps you to get trello's list id
 
