@@ -1,7 +1,6 @@
 /*
 
-    @author
-        Diltz
+    @author Diltz
 
     Desc: This code helps you to get trello's list id
 
@@ -18,7 +17,7 @@ module.exports = async (boardId, listName, apiKey, apiToken) => {
         throw error.status
     }
 
-    return lists.body.find((list) => {got
+    return lists.body.find((list) => {
         return list.name == listName
     }).id
 }
