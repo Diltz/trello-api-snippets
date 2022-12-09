@@ -1,13 +1,13 @@
 {
-  "name": "trello",
+  "name": "trello-api-snippets",
   "version": "1.0.0",
-  "main": "unit-test.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node script.test.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Diltz",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "superagent": "^8.0.5"
